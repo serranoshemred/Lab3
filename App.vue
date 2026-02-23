@@ -4,8 +4,8 @@
 
       <!-- HEADER -->
       <div class="header">
-        <h1>MAY GINTO KANA MAY PILAK KAPA!</h1>
-        <p>Gold & Silver kaba?</p>
+        <h1>Luxury Jewelry Calculator</h1>
+        <p>Gold & Silver Pricing • PHP</p>
       </div>
 
       <!-- CONTENT -->
@@ -122,9 +122,9 @@ watch([basePrice, tax, total], () => {
 .luxury-bg {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 20% 10%, rgba(28, 219, 11, 0.25), transparent 40%),
-    radial-gradient(circle at 80% 90%, rgba(9, 190, 136, 0.15), transparent 45%),
-    linear-gradient(145deg, #2a68a1, #d81a1a, #141414);
+    radial-gradient(circle at 20% 10%, rgba(255,215,0,0.25), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(255,215,0,0.15), transparent 45%),
+    linear-gradient(145deg, #020202, #0b0b0b, #141414);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,13 +133,13 @@ watch([basePrice, tax, total], () => {
 
 /* ===== CARD ===== */
 .card {
-  width: 90%;
-  max-width: 1000px;
-  background: rgba(18,18,18,0.9);
-  backdrop-filter: blur(18px);
-  border-radius: 0px;
-  border: 1px solid rgba(100, 10, 17, 0.25);
-  box-shadow: 0 40px 90px rgba(0,0,0,0.7);
+  width: 100%;
+  max-width: 900px;
+  background: rgba(15,15,15,0.9);
+  backdrop-filter: blur(16px);
+  border-radius: 24px;
+  border: 1px solid rgba(255,215,0,0.25);
+  box-shadow: 0 30px 80px rgba(0,0,0,0.7);
   overflow: hidden;
 }
 
@@ -147,54 +147,54 @@ watch([basePrice, tax, total], () => {
 .header {
   text-align: center;
   padding: 1.5rem;
-  border-bottom: 1px solid rgba(19, 212, 67, 0.2);
+  border-bottom: 1px solid rgba(255,215,0,0.2);
 }
 
 .header h1 {
   font-size: 3rem;
-  background: linear-gradient(90deg, #05bedf, #942929);
+  background: linear-gradient(90deg, #facc15, #8af5fd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .header p {
-  color: #d0e6ec;
-  font-size: 1.85rem;
+  color: #aaa;
+  font-size: 0.85rem;
 }
 
 /* ===== CONTENT ===== */
 .content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax( 390px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
   padding: 1.5rem;
 }
 
 /* ===== BOX ===== */
 .box {
-  background: rgba(7, 225, 233, 0.9);
+  background: rgba(25,25,25,0.9);
   padding: 1.5rem;
   border-radius: 20px;
 }
 
 .box h3 {
-  color: hsl(47, 82%, 2%);
+  color: #facc15;
   margin-bottom: 1rem;
 }
 
 /* ===== FORM ===== */
 label {
   font-size: 1.8rem;
-  color: #d47114d5;
+  color: #ddd;
 }
 
 select,
 input {
   width: 100%;
-  margin: 10px 0 16px;
+  margin: 6px 0 14px;
   padding: 10px;
-  background: #0b2718;
-  color: #f7f7f7;
+  background: #0a0a0a;
+  color: #fff;
   border: 1px solid #444;
   border-radius: 10px;
 }
@@ -217,13 +217,13 @@ input {
 .total {
   font-size: 2rem;
   font-weight: bold;
-  color: #0e0b03;
+  color: #facc15;
   text-align: center;
 }
 
 small {
   display: block;
   text-align: center;
-  color: #e0e5f1;
+  color: #aaa;
 }
 </style>
