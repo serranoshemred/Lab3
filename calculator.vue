@@ -1,4 +1,8 @@
 <template>
+  <h1>calculator</h1>
+</template>
+
+<template>
   <div class="luxury-bg">
     <div class="card">
 
